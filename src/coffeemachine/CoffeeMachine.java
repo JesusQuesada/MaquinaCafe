@@ -12,7 +12,10 @@ public class CoffeeMachine {
     mon1=new Wallet();
     dis1=new Display();
 
-    
+    /**
+     * Creo un switch case dentro de un do while que sirve como menú para elegir opciones.
+     * 
+     */
         do {
             try{
         op = Integer.parseInt(JOptionPane.showInputDialog(">>>MENU<<< \n1. Introduce dinero \n2. Añadir azúcar \n3. Elegir bebida \n4. Salir"));
